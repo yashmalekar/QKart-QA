@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QKART_TESTNG.QKART_Tests" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-02-21T11:07:24" hostname="heramb-malekar" time="249.086">
+  <properties/>
+  <testcase name="TestCase01[0](testUser, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="8.374"/>
+  <testcase name="TestCase02[0](testUser, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="35.295"/>
+  <testcase name="TestCase03[0](YONEX Smash Badminton Racquet, Gesundheit)" classname="QKART_TESTNG.QKART_Tests" time="8.02"/>
+  <testcase name="TestCase04[0](Running shoes)" classname="QKART_TESTNG.QKART_Tests" time="18.648"/>
+  <testcase name="TestCase05[0](testUser, abc@123, YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="25.988"/>
+  <testcase name="TestCase06[0](testUser, abc@123, Xtend Smart Watch, Yarine Floor Lamp, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="30.797"/>
+  <testcase name="TestCase07[0](testUser, abc@123, Stylecon 9 Seater RHS Sofa Set, Xtend Smart Watch)" classname="QKART_TESTNG.QKART_Tests" time="24.766"/>
+  <testcase name="TestCase08[0](testUser, abc@123, Stylecon 9 Seater RHS Sofa Set, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="40.274"/>
+  <testcase name="TestCase10[0](testUser, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="8.109"/>
+  <testcase name="TestCase09[0](testUser, abc@123, YONEX Smash Badminton Racquet)" classname="QKART_TESTNG.QKART_Tests" time="15.914"/>
+  <testcase name="TestCase11[0](crio user, criouser@gmail.com, Testing the contact us page)" classname="QKART_TESTNG.QKART_Tests" time="2.391"/>
+  <testcase name="TestCase12[0](testUser, abc@123, YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="24.635"/>
+  <system-out><![CDATA[2023-02-21T16:37:24.225759 |  Start TestCase  |  Test Case 1: Verify User Registration | DONE
+2023-02-21T16:37:31.977955 |  Test Step  |  User Perform Login:  | PASS
+2023-02-21T16:37:32.398807 |  End TestCase  |  Test Case 1: Verify user Registration :  | PASS
+2023-02-21T16:37:33.936019 |  Start Testcase  |  Test Case 2: Verify User Registration with an existing username  | DONE
+2023-02-21T16:38:08.570912 |  End TestCase  |  Test Case 2: Verify user Registration :  | PASS
+2023-02-21T16:38:09.742203 |  TestCase 3  |  Start test case : Verify functionality of search box  | DONE
+2023-02-21T16:38:13.760919 |  Step Success  |  Successfully validated the search results  | PASS
+2023-02-21T16:38:17.224228 |  TestCase 3  |  Test Case PASS. Verified that no search results were found for the given text | PASS
+2023-02-21T16:38:18.208509 |  TestCase 4  |  Start test case : Verify the presence of size Chart | DONE
+2023-02-21T16:38:22.077117 |  Step Success  |  Successfully validated presence of Size Chart Link | PASS
+2023-02-21T16:38:22.226305 |  Step Success  |  Validated presence of drop down | PASS
+2023-02-21T16:38:29.261995 |  Step Success  |  Successfully validated presence of Size Chart Link | PASS
+2023-02-21T16:38:29.392695 |  Step Success  |  Validated presence of drop down | PASS
+2023-02-21T16:38:36.412154 |  TestCase 4  |  End Test Case: Validated Size Chart Details | PASS
+2023-02-21T16:38:37.395545 |  Start TestCase  |  Test Case 5: Verify Happy Flow of buying products | DONE
+2023-02-21T16:39:02.882526 |  End TestCase  |  Test Case 5: Happy Flow Test Completed :  | PASS
+2023-02-21T16:39:04.141838 |  Start TestCase  |  Test Case 6: Verify that cart can be edited | DONE
+2023-02-21T16:39:34.438680 |  End TestCase  |  Test Case 6: Verify that cart can be edited:  | PASS
+2023-02-21T16:39:35.769523 |  Start TestCase  |  Test Case 7: Verify that cart contents are persisted after logout | DONE
+2023-02-21T16:39:59.714089 |  End TestCase  |  Test Case 7: Verify that cart contents are persisted after logout:  | FAIL
+2023-02-21T16:40:01.251136 |  Start TestCase  |  Test Case 8: Verify that insufficient balance error is thrown when the wallet balance is not enough | DONE
+2023-02-21T16:40:41.008623 |  End TestCase  |  Test Case 8: Verify that insufficient balance error is thrown when the wallet balance is not enough:  | PASS
+2023-02-21T16:40:41.370888 |  Start TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | DONE
+2023-02-21T16:40:49.284767 |  End TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+2023-02-21T16:40:49.715160 |  Start TestCase  |  Test Case 9: Verify that product added to cart is available when a new tab is opened | DONE
+2023-02-21T16:41:05.437518 |  End TestCase  |  Test Case 9: Verify that product added to cart is available when a new tab is opened | PASS
+2023-02-21T16:41:06.141586 |  Start TestCase  |  Test Case 11: Verify that contact us option is working correctly  | DONE
+2023-02-21T16:41:08.194091 |  End TestCase  |  Test Case 11: Verify that contact us option is working correctly  | PASS
+2023-02-21T16:41:08.722953 |  Start TestCase  |  Test Case 12: Ensure that the links on the QKART advertisement are clickable | DONE
+2023-02-21T16:41:29.251283 |  Step   |  Verify that 3 Advertisements are available | PASS
+2023-02-21T16:41:29.472218 |  Step   |  Verify that Advertisement 1 is clickable  | PASS
+2023-02-21T16:41:33.109234 |  Step   |  Verify that Advertisement 2 is clickable  | PASS
+2023-02-21T16:41:33.110749 |  End TestCase  |  Test Case 12:  Ensure that the links on the QKART advertisement are clickable | PASS
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
